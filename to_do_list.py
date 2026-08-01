@@ -17,3 +17,17 @@ def view_task():
         print(list[i])
 
  
+def delete_task():
+    remove_task = input("Enter Your task to remove:")
+    print(list.remove(remove_task))
+
+
+for i in range(100):
+    print("1. add task")
+    print("2. remove task")
+    print("3. view tasks")
+    print("4.exit\n")
+
+    
+
+ 
