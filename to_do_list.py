@@ -37,6 +37,16 @@ for i in range(100):
         delete_task()
         print("Task deleted \n")
     elif choice == 3:
+        view_task()
+        print("Thank You")
+        break
+    elif choice == 4:
+        print("Thank You")
+        break
+    else:
+        print("Invalid choice\n")
+
+
  
 
  
