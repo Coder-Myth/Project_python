@@ -36,7 +36,6 @@ README.md     → this file
 
 ## 👤 Author
 **Dhananjay Gurjar**
-Portfolio: [gurjar.dev](https://gurjar.dev)
 
 ---
 
