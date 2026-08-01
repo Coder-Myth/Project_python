@@ -45,8 +45,3 @@ for i in range(100):
         break
     else:
         print("Invalid choice\n")
-
-
- 
-
- 
