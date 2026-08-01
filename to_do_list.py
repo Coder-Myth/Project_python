@@ -4,7 +4,7 @@
 print("Welcome to the TO DO LIST APP\n\t")
 
 
-list = []
+tasks = []
 
 
 def add_task():
