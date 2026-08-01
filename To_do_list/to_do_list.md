@@ -1,5 +1,5 @@
-#This is a beginner project —
-#Great for understanding CRUD logic in pure Python.
+# This is a beginner project —
+# Great for understanding CRUD logic in pure Python.
 
 
  # ✅ To-Do List CLI App
