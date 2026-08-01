@@ -28,6 +28,15 @@ for i in range(100):
     print("3. view tasks")
     print("4.exit\n")
 
-    
+        choice = int(input("Enter Your Choice: "))
+    if choice == 1:
+        add_task()
+        print("Task added \n")
+
+    elif choice == 2:
+        delete_task()
+        print("Task deleted \n")
+    elif choice == 3:
+ 
 
  
