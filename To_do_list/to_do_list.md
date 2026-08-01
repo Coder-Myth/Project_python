@@ -1,3 +1,6 @@
+This is a **beginner project** — great for understanding CRUD logic in pure Python.
+
+
  # ✅ To-Do List CLI App
 A simple command-line task manager built with Python — no libraries, no frameworks, just pure Python basics.
 
@@ -41,4 +44,3 @@ README.md     → this file
 
 ## 📌 Note
 Built as part of the **100 Days of Code** learning journey with Code With Harry.
-This is a beginner project — great for understanding CRUD logic in pure Python.
