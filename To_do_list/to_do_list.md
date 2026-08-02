@@ -1,4 +1,5 @@
 # This is a beginner project —Great for understanding CRUD logic in pure Python.
+After completion of day#21 of **Code With Harry Series** , i have made this as my first logic testing project 
 
 
  # ✅ To-Do List CLI App
