@@ -9,7 +9,7 @@ for i in range(0, len(questions)):
     print(indexing)
     answer.append(int(input("Enter Your Answer:")))
 
-score = []
+score = [] #keeps score for each of the question
 
 for j in range(0, len(answer)):
     check_answer = answer[j]
