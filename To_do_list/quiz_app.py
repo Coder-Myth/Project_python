@@ -2,7 +2,7 @@
 
 questions = ["2+4", "16*2", "4/2"]
 
-answer = []
+answer = []#stores answer to check 
 
 for i in range(0, len(questions)):
     indexing = questions[i]
