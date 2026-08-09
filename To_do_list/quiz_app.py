@@ -2,14 +2,14 @@
 
 questions = ["2+4", "16*2", "4/2"]
 
-answer = []
+answer = []#stores answer to check 
 
 for i in range(0, len(questions)):
     indexing = questions[i]
     print(indexing)
     answer.append(int(input("Enter Your Answer:")))
 
-score = []
+score = [] #keeps score for each of the question
 
 for j in range(0, len(answer)):
     check_answer = answer[j]
@@ -32,4 +32,5 @@ for k in range(0, len(score)):
     score_for_each = score[k]
     final_score = final_score + score_for_each
 
-print("Your Final Score is:", final_score)
+#final score
+print(f"Your Final Score is : {final_score}")
