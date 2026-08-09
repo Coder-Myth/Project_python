@@ -1,4 +1,5 @@
 # excercise 4solution
+#code decode : 
 
 task = input("1. Code \n\n2. Decode\n\nENTER YOUR CHOICE>>>>>>>>>>>")
 
