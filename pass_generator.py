@@ -4,10 +4,7 @@
             )
     except:
         print("Enter 1 or 2 as your integer:")
-
-40
-
-
+ 
 
 if a >= 10:
     raise ValueError("Invalid input \n Enter Your Number Below 10")
