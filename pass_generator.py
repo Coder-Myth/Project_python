@@ -1,2 +1,2 @@
 #done in kbc 
-#excercise in 
+#excercise in solu
