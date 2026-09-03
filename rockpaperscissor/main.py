@@ -46,8 +46,7 @@ except:
 # scissor 2  L  D   W
 # paper   3  W  L   D
 this is a practice game 
-
-
+the logic was not good but logic was not wrong 
 # the cleaner way for this is to make logic instead of the using numbers just like b==r i.e. draw then the three case in which i win keep them in or and use else to get other outputs
 
 #  give your output to ai and then see what are the mistake if it could be the professional generate the code by youself first
