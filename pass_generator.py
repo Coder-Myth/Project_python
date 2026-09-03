@@ -1,2 +1,2 @@
 #done in kbc 
-#excercis
+#excercise
