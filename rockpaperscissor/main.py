@@ -45,6 +45,7 @@ except:
 # rock    1  D  W   L
 # scissor 2  L  D   W
 # paper   3  W  L   D
+this is a practice game 
 
 
 # the cleaner way for this is to make logic instead of the using numbers just like b==r i.e. draw then the three case in which i win keep them in or and use else to get other outputs
