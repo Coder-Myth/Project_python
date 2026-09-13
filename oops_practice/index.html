@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    /* ---- Colors used throughout ---- */
+:root {
+  --charcoal: #241C1A;   /* dark background, like a wood-fired oven */
+  --flour: #FBF6EF;      /* cream card background */
+  --ember: #C1440E;      /* tomato-red accent */
+  --basil: #5B7B4F;      /* green accent for toppings */
+  --crust: #D9A441;      /* golden accent for hover */
+  --line: #E4DCCB;       /* soft divider color */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--charcoal);
+  color: var(--flour);
+  font-family: 'Inter', sans-serif;
+  padding: 48px 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 36px;
+}
+
+header h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+header p {
+  color: #D8CFC2;
+  font-size: 15px;
+  margin: 0;
+}
+
+.menu-section {
+  margin-bottom: 28px;
+}
+
+.menu-section h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 0 12px;
+  color: var(--crust);
+}
+
+/* Lists styled like a printed order ticket */
+.option-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--flour);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.option-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  color: var(--charcoal);
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px dashed var(--line);
+  transition: background 0.15s ease;
+}
+
+.option-list li:last-child {
+  border-bottom: none;
+}
+
+/* Simple CSS-only interactivity: no JS needed for this */
+.option-list li:hover {
+  background: #F3ECE0;
+}
+
+.toppings li:hover {
+  background: #EAF0E6;
+}
+
+.price {
+  font-size: 13px;
+  color: var(--ember);
+  font-weight: 600;
+}
+
+.toppings .price {
+  color: var(--basil);
+}
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Pizza-Store</h1>
+        <p>Wood-fired pizza, built the way you like it.</p>
+      </header>
+
+      <section class="menu-section">
+        <h3>Choose your size</h3>
+        <ul class="option-list">
+          <li>Small <span class="price">₹149</span></li>
+          <li>Medium <span class="price">₹199</span></li>
+          <li>Large <span class="price">₹249</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-section">
+        <h3>Choose your toppings</h3>
+        <ul class="option-list toppings">
+          <li>Tomato <span class="price">₹20</span></li>
+          <li>Capsicum <span class="price">₹20</span></li>
+          <li>Extra Sauce <span class="price">₹20</span></li>
+          <li>Mayonnaise <span class="price">₹20</span></li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
